@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Gates Signal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="gates.css">
+</head>
+<body>
+  <div class="screen">
+    <img src="zeus-bg.jpg" alt="" class="bg-image">
+
+    <button id="signalButton" class="signal-btn" aria-label="Получить сигнал по Gates of Olympus">
+      <img src="zeus-btn.png" alt="Signal" class="signal-img">
+    </button>
+
+    <div id="resultBox" class="result-box hidden">
+      <div class="result-inner">
+        <div class="result-title">Gates Signal</div>
+        <div class="result-spins">
+          До бонуски осталось
+          <span id="spinsValue">—</span>
+          вращений
+        </div>
+        <button id="closeResult" class="close-btn">OK</button>
+      </div>
+    </div>
+
+    <button class="back-btn" onclick="window.location.href='index.html'">← Slots</button>
+  </div>
+
+  <script src="gates.js"></script>
+</body>
+</html>
